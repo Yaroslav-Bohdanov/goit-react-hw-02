@@ -47,7 +47,7 @@ function App() {
         totalFeedback={totalFeedback}
         updateFeedback={updateFeedback}
         resetFeedback={resetFeedback}
-        feedbacksData={feedbacksData} // Передаємо список кнопок
+        feedbacksData={feedbacksData}
       />
       {totalFeedback === 0 ? (
         <Notification />
