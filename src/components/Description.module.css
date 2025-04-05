@@ -1,0 +1,35 @@
+.title {
+  font-size: 30px;
+  transition: transform 500ms linear, color 500ms linear;
+
+  &:hover {
+    color: #000000;
+    transform: scale(1.1);
+
+    &::after {
+      content: "";
+      width: 100%;
+      height: 2px;
+      background-color: #000000;
+      display: block;
+    }
+  }
+}
+
+.subtitle {
+  font-size: 16px;
+  text-align: center;
+  transition: transform 500ms linear, color 500ms linear;
+
+  &:hover {
+    transform: scale(1.1);
+
+    &::after {
+      content: "";
+      width: 100%;
+      height: 2px;
+      background-color: gray;
+      display: block;
+    }
+  }
+}

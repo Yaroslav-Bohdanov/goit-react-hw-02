@@ -1,0 +1,24 @@
+.optionBox {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+  list-style: none;
+}
+
+.optionButton {
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.resetButton {
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
